@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Fylo landing page with dark theme and features grid</title>
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <!-- Menu Header -->
+    <div class="menu-header">
+      <a href="index.html" class="logo" title="Fylo">
+        <img src="images/logo.svg" class="logo-icon" alt="Logo icon">
+      </a>
+      <nav class="nav-header">
+          <a href="#" class="nav__link">Features</a>
+          <a href="#" class="nav__link">Team</a>
+          <a href="#" class="nav__link">Sign In</a>
+      </nav>
+    </div>
+
+    <!-- Intro -->
+    <div class="intro">
+      <img src="images/illustration-intro.png" class="intro__img" alt="" aria-hidden="true">
+      <h1 class="intro__title hero-title">All your files in one secure location, accessible anywhere.</h1>
+      <p class="intro__description">
+        Fylo stores all your most important files in one secure location. Access them wherever
+        you need, share and collaborate with friends family, and co-workers.
+      </p>
+      <button class="intro__btn hero-btn">Get Started</button>
+    </div>
+
+    <img src="images/bg-curvy-mobile.svg" class="intro-bg" alt="" aria-hidden="true">
+  </header>
+
+  <!-- Main -->
+  <main class="main-c">
+    <!-- Features Container -->
+    <section class="features">
+      <h2 class="sr-only">Our Features</h2>
+
+      <div class="feature-card">
+        <img src="images/icon-access-anywhere.svg" class="card__icon" alt="" aria-hidden="true">
+        <h2 class="card__title hero-title">Access your files, anywhere</h2>
+        <p>
+          The ability to use a smartphone, tablet, or computer to access your account means your
+          files follow you everywhere.
+        </p>
+      </div>
+
+      <div class="feature-card">
+        <img src="images/icon-security.svg" class="card__icon" alt="" aria-hidden="true">
+        <h2 class="card__title hero-title">Security you can trust</h2>
+        <p>
+          2-factor authentication and user-controlled encryption are just a couple of the security
+          features we allow to help secure your files.
+        </p>
+      </div>
+
+      <div class="feature-card">
+        <img src="images/icon-collaboration.svg" class="card__icon" alt="" aria-hidden="true">
+        <h2 class="card__title hero-title">Real-time collaboration</h2>
+        <p>
+          Securely share files and folders with friends, family and colleagues for live collaboration.
+          No email attachments required.
+        </p>
+      </div>
+
+      <div class="feature-card">
+        <img src="images/icon-any-file.svg" class="card__icon" alt="" aria-hidden="true">
+        <h2 class="card__title hero-title">Store any type of file</h2>
+        <p>
+          Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all
+          file types to be securely stored and shared.
+        </p>
+      </div>
+    </section>
+
+    <!-- Stay Productive Container -->
+    <div class="stay-productive">
+      <div class="stay-img-c">
+        <img src="images/illustration-stay-productive.png" class="stay__img" alt="" aria-hidden="true">
+      </div>
+      
+      <section class="stay-content">
+        <h2 class="stay__title hero-title">Stay productive, wherever you are</h2>
+        <p class="stay__description">
+          Never let location be an issue when accessing your files. Fylo has you covered for all of your file
+          storage needs.
+        </p>
+        <p class="stay__description">
+          Securely share files and folders with friends, family and colleagues for live collaboration. No email
+          attachments required.
+        </p>
+        <a href="#" class="stay__link">
+          See how Fylo works
+          <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><circle id="b" cx="6" cy="6" r="6"/><filter x="-25%" y="-25%" width="150%" height="150%" filterUnits="objectBoundingBox" id="a"><feOffset in="SourceAlpha" result="shadowOffsetOuter1"/><feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"/><feColorMatrix values="0 0 0 0 0.384313725 0 0 0 0 0.878431373 0 0 0 0 0.850980392 0 0 0 0.811141304 0" in="shadowBlurOuter1"/></filter></defs><g fill="none" fill-rule="evenodd"><g transform="translate(2 2)"><use fill="#000" filter="url(#a)" xlink:href="#b"/><use fill="currentColor" xlink:href="#b"/></g><path d="M8.582 6l-.363.35 1.452 1.4H5.333v.5h4.338L8.22 9.65l.363.35 2.074-2z" fill="#1B2330"/></g></svg>
+        </a>
+      </section>
+    </div>
+
+    <!-- Testimonials Container -->
+    <article class="testimonials">
+      <h2 class="sr-only">Testimonials</h2>
+
+      <div class="testimonial-card card-01">
+        <p class="person__review">
+          Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has
+          become a well-oiled collaboration machine.
+        </p>
+        <div class="person-info">
+          <img src="images/profile-1.jpg" alt="person photo" class="person__img">
+          <p class="person__name-role">
+            <strong>Satish Patel</strong>
+            Founder & CEO, Huddle
+          </p>
+        </div>
+      </div>
+
+      <div class="testimonial-card card-02">
+        <p class="person__review">
+          Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has
+          become a well-oiled collaboration machine.
+        </p>
+        <div class="person-info">
+          <img src="images/profile-2.jpg" alt="person photo" class="person__img">
+          <p class="person__name-role">
+            <strong>Bruce McKenzie</strong>
+            Founder & CEO, Huddle
+          </p>
+        </div>
+      </div>
+
+      <div class="testimonial-card card-03">
+        <p class="person__review">
+          Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has
+          become a well-oiled collaboration machine.
+        </p>
+        <div class="person-info">
+          <img src="images/profile-3.jpg" alt="person photo" class="person__img">
+          <p class="person__name-role">
+            <strong>Iva Boyd</strong>
+            Founder & CEO, Huddle
+          </p>
+        </div>
+      </div>
+    </article>
+
+    <!-- Sign Up Container -->
+    <section class="sign-up">
+      <h3 class="sign-up__title hero-title">Get early access today</h3>
+      <p class="sign-up__description">
+        It only takes a minute to sign up and our free starter tier is extremely generous. If you have any
+        questions, our support team would be happy to help you.
+      </p>
+      <form>
+        <div class="email-c">
+          <input type="email" name="email" id="email" class="email__input" placeholder="email@example.com">
+          <span id="error-msg">Please enter a valid email address</span>
+        </div>
+        <input type="button" value="Get Started For Free"  class="sign-up__btn hero-btn">
+      </form>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <!-- Footer Content Container -->
+    <div class="footer-content">
+      <a href="index.html" class="logo" title="Fylo"><img src="images/logo.svg" class="logo-icon" alt="Logo icon"></a>
+
+      <!-- Infos Container -->
+      <div class="infos">
+        <div class="location info-c">
+          <img src="images/icon-location.svg" alt="" class="info-icon" aria-hidden="true">
+          <p class="location__info" aria-label="location">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua
+          </p>
+        </div>
+
+        <!-- Contacts Container -->
+        <div class="contacts">
+          <div class="phone info-c">
+            <img src="images/icon-phone.svg" alt="" class="info-icon" aria-hidden="true">
+            <p class="contact__phone" aria-label="phone number">
+              +1-543-123-4567
+            </p>
+          </div>
+          <div class="email info-c">
+            <img src="images/icon-email.svg" alt="" class="info-icon" aria-hidden="true">
+            <p class="contact__email" aria-label="email">
+              example@fylo.com
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Nav Footer Container -->
+      <nav class="nav-footer">
+        <ul class="nav-list">
+          <li><a href="#" class="nav__link">About Us</a></li>
+          <li><a href="#" class="nav__link">Jobs</a></li>
+          <li><a href="#" class="nav__link">Press</a></li>
+          <li><a href="#" class="nav__link">Blog</a></li>
+        </ul>
+
+        <ul class="nav-list">
+          <li><a href="#" class="nav__link">Contact Us</a></li>
+          <li><a href="#" class="nav__link">Terms</a></li>
+          <li><a href="#" class="nav__link">Privacy</a></li>
+        </ul>
+      </nav>
+
+      <!-- Socials Container -->
+      <div class="socials">
+        <a href="#" class="social__link"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="social__link"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="social__link"><i class="fab fa-instagram"></i></a>
+      </div>
+
+      <!-- Attribution Container -->
+      <div class="attribution">
+        <p>
+          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+          Coded by <a href="https://github.com/LucasWeidas" target="_blank">Lucas Weidas</a>.
+        </p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
